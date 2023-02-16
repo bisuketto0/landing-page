@@ -1,6 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   /*font-family*/
-  padding: 0 15%;
+  margin: 0;
+  padding: 0 15%; 
   display: flex;
   flex-direction: column;
 }
@@ -10,6 +16,12 @@ body {
   color: beige;
   display: flex;
   justify-content: space-between;
+  padding: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 ul {
