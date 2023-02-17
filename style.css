@@ -14,12 +14,6 @@ body {
   flex-direction: column;
 }
 
-.container-header {
-  background-color: #1F2937;
-  color: beige;
-  padding: 0 15%;
-}
-
 .container-dark {
   background-color: #1F2937;
   color: beige;
