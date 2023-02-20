@@ -12,12 +12,18 @@ body {
 
 .container-dark {
   background-color: #1F2937;
-  color: beige;
+  color: #F9FAF8;
   padding: 0 15%;
 }
 
 .container-white {
   background-color: white;
+  color: #1F2937;
+  padding: 0 15%;
+}
+
+.container-grey {
+  background-color: #E5E7EB;
   color: #1F2937;
   padding: 0 15%;
 }
@@ -29,6 +35,9 @@ body {
   padding: 16px 0px;
 }
 
+.links {
+  color: #E5E7EB;
+}
 
 
 .intro {
@@ -52,6 +61,7 @@ body {
 
 .text {
   font-size: 18px;
+  color: #E5E7EB;
 }
 
 button {
@@ -75,7 +85,6 @@ img {
   width: 250px;
   height: auto;
 }
-
 
 
 .information {
@@ -104,6 +113,22 @@ img {
 
 .info-text {
   text-align: center;
+}
+
+
+.quote {
+  padding: 64px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote span {
+  display: flex;
+  justify-content: flex-end;
+  color: #1F2937;
+  font-size: 27px;
+  font-weight: bold;
 }
 
 .logo {
