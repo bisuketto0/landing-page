@@ -18,7 +18,7 @@ body {
 
 .container-white {
   background-color: white;
-  color: black;
+  color: #1F2937;
   padding: 0 15%;
 }
 
@@ -77,6 +77,34 @@ img {
 }
 
 
+
+.information {
+  padding: 64px 0px;
+}
+
+.info-title {
+  text-align: center;
+  margin-bottom: 64px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.info div img {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+}
+
+.info-text {
+  text-align: center;
+}
 
 .logo {
   font-size: 24px;
