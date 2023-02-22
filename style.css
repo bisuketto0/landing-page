@@ -203,3 +203,7 @@ a {
   text-decoration: none;
   color: #F7EBE1;
 }
+
+a:hover {
+  color: #c99367;
+}
